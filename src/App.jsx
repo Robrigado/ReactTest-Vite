@@ -2,10 +2,17 @@ import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Cards from './components/Cards'
 
 function App() {
   return (
-    <h1 className='jabiraca'>How about that!?</h1>
+    <div>
+      <Navbar />
+      <Hero />
+      <Cards />
+    </div>
   )
 }
 
