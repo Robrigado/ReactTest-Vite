@@ -8,7 +8,7 @@ import Cards from './components/Cards'
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Navbar />
       <Hero />
       <Cards />
